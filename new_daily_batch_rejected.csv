@@ -1,0 +1,19 @@
+Order_ID,Order_Date,Ship_Date,Customer_ID,Product_ID,Quantity,Unit_Price,Discount,Shipping_Cost,Order_Status,Payment_Method,rejection_reason
+NB000069,2025-11-07,2025-11-10,C0003,P013,1,367.45,1.3,45.0,Delivered,Card,"discount outside [0, 1]"
+NB000109,2025-11-03,2025-10-30,C0150,P025,1,206.65,0.05,45.0,Pending,Online,ship date before order date
+NB000172,2025-11-06,2025-11-07,C0120,P555,1,1697.88,0.05,45.0,Delivered,Online,product not found in products_master
+NB000106,2025-11-02,2025-10-31,C0147,P030,1,816.89,0.0,35.0,Delivered,Wallet,ship date before order date
+NB000206,2025-11-01,2025-11-05,C5555,P029,5,63.83,0.0,35.0,Delivered,Wallet,customer not found in customers_master
+NB000211,2025-11-05,2025-11-15,C6666,P026,1,439.12,0.05,45.0,Shipped,Cash,customer not found in customers_master
+NB000207,2025-11-03,2025-11-05,C0139,P012,1,148.74,1.3,25.0,Delivered,Online,"discount outside [0, 1]"
+NB000052,2025-11-07,2025-11-10,C6666,P022,3,612.17,0.0,25.0,Cancelled,Cash,customer not found in customers_master
+NB000194,2025-11-06,2025-11-05,C0029,P010,1,1697.88,0.0,45.0,Delivered,Wallet,ship date before order date
+NB000009,2025-11-01,2025-11-02,C0061,P002,-1,423.75,0.0,35.0,Shipped,Wallet,quantity <= 0
+NB000046,2025-11-03,2025-11-06,C0096,P006,-1,382.44,0.0,35.0,Delivered,Card,quantity <= 0
+NB000200,2025-11-06,2025-11-14,C0106,P666,5,423.75,0.05,25.0,Shipped,Online,product not found in products_master
+NB000110,2025-11-01,2025-11-04,C5555,P010,3,1697.88,0.0,35.0,Delivered,Cash,customer not found in customers_master
+NB000217,2025-11-06,2025-11-09,C0144,P004,5,90.7,1.3,25.0,Delivered,Wallet,"discount outside [0, 1]"
+NB000208,2025-11-05,2025-11-08,C0020,P555,1,90.7,0.0,35.0,Cancelled,Card,product not found in products_master
+NB000088,2025-11-01,2025-11-02,,P028,1,57.93,0.0,45.0,Delivered,Wallet,customer not found in customers_master
+NB000202,2025-11-01,2025-11-04,C0149,P555,4,382.44,0.0,45.0,Delivered,Online,product not found in products_master
+NB000139,2025-11-04,2025-11-02,C0027,P012,2,148.74,0.0,35.0,Delivered,Card,ship date before order date

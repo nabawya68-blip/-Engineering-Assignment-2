@@ -1,0 +1,10 @@
+Order_ID,Order_Date,Ship_Date,Customer_ID,Product_ID,Quantity,Unit_Price,Discount,Shipping_Cost,Order_Status,Payment_Method,rejection_reason
+ORD10011,2025-10-18,2025-10-22,C0095,PX01,4,1139.98,0.05,20.0,Shipped,Cash,product not found in products_master
+ORD10023,2025-10-23,,C0144,P002,0,485.52,0.0,20.0,Pending,Cash,quantity <= 0
+ORD10038,2025-10-02,2025-10-04,C0148,P025,5,,0.0,35.0,Delivered,Wallet,unit price missing / not a number
+ORD10046,2025-10-25,,C0063,P022,2,454.25,1.2,35.0,Pending,Card,"discount outside [0, 1]"
+ORD10098,2025-10-16,2025-10-17,C0083,P009,-2,296.43,0.2,35.0,Delivered,Cash,quantity <= 0
+ORD10109,2025-10-26,2025-09-20,C0052,P011,5,227.06,0.0,50.0,Delivered,Cash,ship date before order date
+ORD10129,2025-10-24,,C0031,PX02,3,114.01,0.15,20.0,Pending,Wallet,product not found in products_master
+ORD10180,2025-10-27,,C0076,P005,3,,0.15,50.0,Pending,Card,unit price missing / not a number
+ORD10217,2025-10-05,2025-10-10,C0025,P027,5,849.49,-0.1,20.0,Delivered,Cash,"discount outside [0, 1]"
